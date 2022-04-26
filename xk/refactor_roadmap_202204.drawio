@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T04:26:09.072Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="17.4.5" etag="thWaBrKmSi8yA13vmaKd" type="github"><diagram id="YiE5o57jWSvUvqoF0h6f">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-26T04:33:20.364Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="8O_3MvTqXVtBPEOSYJXX" version="17.4.5" type="github">
+  <diagram id="YiE5o57jWSvUvqoF0h6f" name="Page-1">
+    <mxGraphModel dx="1584" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="myp9pq8fVBCkrFy17xMi-6" value="Step 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="637" y="150" width="280" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="myp9pq8fVBCkrFy17xMi-4" value="Step 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="252" y="150" width="280" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="myp9pq8fVBCkrFy17xMi-1" value="add EntityObject Layer&lt;br&gt;增加 EO 层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="292" y="310" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="myp9pq8fVBCkrFy17xMi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="myp9pq8fVBCkrFy17xMi-2" target="myp9pq8fVBCkrFy17xMi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="myp9pq8fVBCkrFy17xMi-2" value="rearrange global store&lt;br&gt;梳理全局状态" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="292" y="380" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="myp9pq8fVBCkrFy17xMi-3" value="add document &amp;amp; test&lt;br&gt;补充单测和文档" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="292" y="450" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="myp9pq8fVBCkrFy17xMi-5" value="重新设计与改造&lt;br&gt;功能互斥与禁用逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="672" y="380" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="myp9pq8fVBCkrFy17xMi-9" value="Version.20220426" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
