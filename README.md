@@ -1,15 +1,23 @@
 # charts
-record for my roadmaps / flowcharts / diagrams, mainly edited on diagrams.net
 
-### 分类
+Records for my roadmaps / charts / diagrams, mainly edited on [draw.io](https://www.diagrams.net) / [excalidraw](https://excalidraw.com/)
 
-按照目录分类
 
-### 流程
+## 分类
 
-* 在 [draw.io](https://www.diagrams.net) 编辑图表；
-* 完成后导出`.drawio`文件和图片文件到对应目录；
 
-OR
+目前内容较少，随意分类
 
-* 直接使用 `github` 账号登录 `diagrams.net`
+
+## 使用流程
+
+
+1. 创建
+
+* **[draw.io](https://www.diagrams.net)** ：创建图表，保存时选择 github 授权，选到此仓库对应目录；
+* **[excalidraw](https://excalidraw.com/)**：创建图表，保存时选择导出本地文件，再手动提交到本仓库；
+
+2. 编辑现有
+
+* **[draw.io](https://www.diagrams.net)** ：选择 github 授权，打开此仓库对应目录下对应文件;
+* **[excalidraw](https://excalidraw.com/)**：将本仓库下对应 文件下载到本地在使用 `excalidraw` 网页版打开
