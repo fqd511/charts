@@ -43,7 +43,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="PZfzZNaTvzWQmKP6ip1n" name="EO">
-        <mxGraphModel dx="1078" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1142" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="6CST_ldn4HrXpU7ngzwl-0"/>
                 <mxCell id="6CST_ldn4HrXpU7ngzwl-1" parent="6CST_ldn4HrXpU7ngzwl-0"/>
@@ -160,6 +160,21 @@
                 </mxCell>
                 <mxCell id="BwN-gAhCA8Xk8vMQn4hv-12" value="&lt;p&gt;Common attributes:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;name;&lt;/li&gt;&lt;li&gt;toEO/EO;&lt;/li&gt;&lt;li&gt;createByEO;&lt;/li&gt;&lt;li&gt;...&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;fontColor=#000000;arcSize=4;imageWidth=24;" vertex="1" parent="6CST_ldn4HrXpU7ngzwl-1">
                     <mxGeometry x="440" y="290" width="120" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="BwN-gAhCA8Xk8vMQn4hv-18" value="" style="group" vertex="1" connectable="0" parent="6CST_ldn4HrXpU7ngzwl-1">
+                    <mxGeometry x="630" y="350" width="110" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="BwN-gAhCA8Xk8vMQn4hv-16" value="&lt;p style=&quot;&quot;&gt;BuildingSingle&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;fontColor=#000000;arcSize=4;imageWidth=24;align=center;verticalAlign=bottom;" vertex="1" parent="BwN-gAhCA8Xk8vMQn4hv-18">
+                    <mxGeometry width="110" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="BwN-gAhCA8Xk8vMQn4hv-17" value="Mesh" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="BwN-gAhCA8Xk8vMQn4hv-18">
+                    <mxGeometry width="35.2" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="BwN-gAhCA8Xk8vMQn4hv-19" value="Group" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;fillColor=none;arcSize=4;align=left;verticalAlign=top;" vertex="1" parent="6CST_ldn4HrXpU7ngzwl-1">
+                    <mxGeometry x="620" y="300" width="130" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="BwN-gAhCA8Xk8vMQn4hv-20" value="Group&lt;br&gt;..." style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=default;fillColor=none;arcSize=4;align=left;verticalAlign=top;" vertex="1" parent="6CST_ldn4HrXpU7ngzwl-1">
+                    <mxGeometry x="610" y="260" width="150" height="190" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
