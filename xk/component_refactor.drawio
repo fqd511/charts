@@ -1,0 +1,84 @@
+<mxfile host="65bd71144e">
+    <diagram id="GPOvPEc8KOinO-L7EhYZ" name="第 1 页">
+        <mxGraphModel dx="1320" dy="895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Version.20220728" style="rounded=0;whiteSpace=wrap;html=1;labelBorderColor=none;fontSize=13;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="10" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="主项目&lt;br&gt;frontend_cad / re_fronted_cad" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="110" width="460" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=0.194;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="cad_core" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="320" width="180" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="410.9999999999998" y="310" as="sourcePoint"/>
+                        <mxPoint x="411" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="项目设置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;horizontal=1;textDirection=ltr;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="320" width="20" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0.632;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="对象管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;horizontal=1;textDirection=ltr;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="320" width="20" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0.719;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="沿线排布" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;horizontal=1;textDirection=ltr;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="320" width="20" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="方案管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;horizontal=1;textDirection=ltr;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="320" width="20" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;entryX=0.89;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="11" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="拼合拆解" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;horizontal=1;textDirection=ltr;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="320" width="20" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0.962;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="12" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="方案生成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;horizontal=1;textDirection=ltr;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="320" width="20" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="395" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="3D 渲染" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="360" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="事件触发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="395" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="视图交互" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="434" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="460" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="事件调度中心" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="235" y="190" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="全局状态管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="405" y="190" width="100" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
