@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T11:00:08.030Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.4" etag="NZyjO3_1Nx86i8-mbgUi" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-08-18T11:02:49.122Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.4" etag="mKlthnfFSXt1YxqtHdO5" type="github" pages="3">
   <diagram id="GPOvPEc8KOinO-L7EhYZ" name="editor vs other">
     <mxGraphModel dx="1426" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -332,7 +332,7 @@
             <mxPoint x="1130" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="u2RJMl6k46FLeO5Lv43u-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#000000;" edge="1" parent="mT1I7jhHQ5DRqUDuGSHS-1">
+        <mxCell id="u2RJMl6k46FLeO5Lv43u-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontColor=#000000;dashPattern=1 4;" edge="1" parent="mT1I7jhHQ5DRqUDuGSHS-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="220" y="200" as="sourcePoint" />
             <mxPoint x="1130" y="200" as="targetPoint" />
