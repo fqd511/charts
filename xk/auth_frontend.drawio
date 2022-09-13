@@ -1,0 +1,66 @@
+<mxfile host="65bd71144e">
+    <diagram id="PDEFwmZH9h3LwehCUuqB" name="第 1 页">
+        <mxGraphModel dx="1183" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="auth_frontend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFE6;strokeColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="70" width="360" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="业务项目" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6FFCC;strokeColor=none;align=left;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="460" width="360" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="SSO_ID(可多次使用)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="270" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="CAS_Ticket(一次性)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="430" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Token" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="590" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Login Successful" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="110" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="7" target="4" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1170" y="300" as="sourcePoint"/>
+                        <mxPoint x="1220" y="250" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="610" y="182"/>
+                            <mxPoint x="610" y="258"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" value="UserApi.getTikectBySSOId" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;labelBackgroundColor=#33FFFF;fontColor=#3333FF;" parent="1" source="4" target="5" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1130" y="270" as="sourcePoint"/>
+                        <mxPoint x="1130" y="350" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="610" y="342"/>
+                            <mxPoint x="610" y="418"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;" parent="1" source="5" target="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1130" y="410" as="sourcePoint"/>
+                        <mxPoint x="1130" y="470" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="610" y="502"/>
+                            <mxPoint x="610" y="578"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="UserApi.getTokenByTicket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3333FF;labelBackgroundColor=#33FFFF;" parent="10" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0699" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="Version.20220913" style="rounded=0;whiteSpace=wrap;html=1;labelBorderColor=none;fontSize=13;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="10" width="120" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

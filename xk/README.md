@@ -12,3 +12,4 @@ work files at xk
 | infra_refactor.drawio                   | 重构拆分架构               |
 | refactor_roadmap_202204.drawio          | 分层相关的重构             |
 | yp.drawio                               | 研判相关各服务拆分及泳道   |
+| auth_frontend.drawio                    | 单点登录的简要说明   |
