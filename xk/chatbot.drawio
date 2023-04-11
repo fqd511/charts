@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T07:17:22.029Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.1.4" etag="CDUTh1aBNMYIBkrOX9bt" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T08:05:59.464Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="5ujFFPetL8Pkr8LMfsLB" version="21.1.4" type="github">
   <diagram name="Page-1" id="XSkzn5fzGg9qevcozu5c">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="X22jmdS72TsK8F3db_Ze-1" value="Version.20230411" style="rounded=0;whiteSpace=wrap;html=1;labelBorderColor=none;fontSize=13;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-2" value="ai_frontend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFE6;strokeColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="150" y="70" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-3" value="chatbot" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6FFCC;strokeColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="150" y="350" width="390" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-12" value="ai_backend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="150" y="210" width="390" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-4" value="session management/&lt;br&gt;forwarding/ &lt;br&gt;..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="250" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X22jmdS72TsK8F3db_Ze-6" target="X22jmdS72TsK8F3db_Ze-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X22jmdS72TsK8F3db_Ze-6" target="X22jmdS72TsK8F3db_Ze-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-6" value="Secure Filter layer&lt;br&gt;Embedding/index&lt;br&gt;fine-tuning&lt;br&gt;..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="414" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-13" value="Dialogue" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="X22jmdS72TsK8F3db_Ze-7" target="X22jmdS72TsK8F3db_Ze-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-7" value="Web UI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="110" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;noEdgeStyle=1;orthogonal=1;labelBackgroundColor=#33FFFF;fontColor=#3333FF;width=10;" edge="1" parent="1" source="X22jmdS72TsK8F3db_Ze-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="865" y="270" as="sourcePoint" />
+            <mxPoint x="345" y="416" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345" y="342" />
+              <mxPoint x="345" y="418" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-14" value="Open Source LLM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="375" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-15" value="OpenAI API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-18" value="&lt;b&gt;前端交互&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="125" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-19" value="&lt;b&gt;后端服务&lt;/b&gt;：&lt;br&gt;&lt;ul&gt;&lt;li&gt;暂时只有转发，后续可能有会话管理等功能；&lt;/li&gt;&lt;li&gt;&lt;u&gt;向上提供前端接口调用，向下调用语言模型服务&lt;/u&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="230" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-20" value="&lt;b&gt;预处理层&lt;/b&gt;：&lt;br&gt;&lt;ul&gt;&lt;li&gt;预计将包含的范围（暂时不全）&lt;/li&gt;&lt;ul&gt;&lt;li&gt;embedding：提前做上下文索引&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;微调：fine-tuning，具体做法针对模型再讨论；&lt;/li&gt;&lt;li&gt;分流：负载均衡以及防止被封号等；&lt;/li&gt;&lt;li&gt;过滤：对于一些高风险问题单独处理，也可归入fine-tuning；&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;针对不同语言模型及GPT，部分功能会有不同实现，后续根据具体实现再定&lt;/li&gt;&lt;li&gt;&lt;u&gt;向上提供语言模型服务调用，向下调用语言模型（设计兼容多个模型）&lt;/u&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="355" width="460" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-21" value="&lt;b&gt;开源LLM&lt;/b&gt;：&lt;br&gt;&lt;ul&gt;&lt;li&gt;运行在自家服务器上，使用成本可控&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="540" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="X22jmdS72TsK8F3db_Ze-22" value="&lt;b&gt;OpenAI&amp;nbsp;&lt;/b&gt;：&lt;br&gt;&lt;ul&gt;&lt;li&gt;调用GPT服务，有封号风险，作为备选&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="640" width="270" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
